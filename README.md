@@ -44,15 +44,15 @@ Oyun sonu ekranı
 
 Başlangıç Ekranı: "Başlamak için herhangi bir yere basınız" mesajı
 
-![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/screenshot1.png)
+![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/blob/main/screenshot1.png)
 
 Oyun Ekranı: Kuş borular arasında uçuyor
 
-![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/screenshot2.png)
+![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/blob/main/screenshot2.png)
 
 Oyun Sonu: "Başaramadık Abi :(" ve skor gösterimi
 
-![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/screenshot3.png)
+![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/blob/main/screenshot3.png)
 
 🏗️ Kod Yapısı ve Mimari Açıklaması
 
