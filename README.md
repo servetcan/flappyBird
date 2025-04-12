@@ -1,10 +1,13 @@
 📜 Oyun Hakkında
+
 Bu proje, klasik Flappy Bird oyununun basit bir JavaScript uyarlamasıdır. Canvas ve JavaScript kullanılarak geliştirilmiştir.
 
 🎮 Oyunun Amacı
+
 Kuşu borular arasından geçirerek mümkün olduğunca uzağa gitmeye çalışın. Her boru çiftini geçtiğinizde puan kazanırsınız.
 
 🕹️ Oynanış
+
 Başlatma: Oyunu başlatmak için herhangi bir tuşa basın, ekrana tıklayın veya dokunun.
 
 Kontrol: Kuşu zıplatmak için herhangi bir tuşa basın, ekrana tıklayın veya dokunun.
@@ -12,13 +15,14 @@ Kontrol: Kuşu zıplatmak için herhangi bir tuşa basın, ekrana tıklayın vey
 Amaç: Kuşu borulara çarptırmadan uçurmak ve mümkün olduğunca çok boru geçerek yüksek puan almak.
 
 📂 Dosya Yapısı
-Copy
+
 flappy-game/
 ├── index.html      # Ana HTML dosyası
 ├── script.js       # Oyun mantığı ve işlevleri
 └── styles.css      # Oyunun stil dosyası
 
 ✨ Özellikler
+
 Responsive tasarım (farklı ekran boyutlarına uyumlu)
 
 Yüksek puan takibi
@@ -30,18 +34,27 @@ Basit ve sezgisel kontrol
 Oyun sonu ekranı
 
 🖼️ Ekran Görüntüleri
+
 Başlangıç Ekranı: "Başlamak için herhangi bir yere basınız" mesajı
+
 ![Oyun Görüntüsü](screenshot.png)
+
 Oyun Ekranı: Kuş borular arasında uçuyor
+
 ![Oyun Görüntüsü](screenshot.png)
+
 Oyun Sonu: "Başaramadık Abi :(" ve skor gösterimi
+
 ![Oyun Görüntüsü](screenshot.png)
 
 🏗️ Kod Yapısı ve Mimari Açıklaması
+
 # Flappy Bird Oyunu Kod Yapısı
 
 ## 🎯 Temel Yapı
+
 Oyun üç ana dosyadan oluşur:
+
 1. `index.html` - Oyunun HTML iskeleti
 2. `styles.css` - Görsel stiller
 3. `script.js` - Oyun mantığı
@@ -49,6 +62,7 @@ Oyun üç ana dosyadan oluşur:
 ## 📜 script.js Detaylı Açıklama
 
 ### 1. Oyun Değişkenleri ve Ayarlar
+
 ```javascript
 var myCanvas = document.getElementById('myCanvas');
 var ctx = myCanvas.getContext("2d");
