@@ -1,3 +1,7 @@
+
+Oynamak İçin Tıkla
+[![Play Online](https://img.shields.io/badge/Play-GitHub%20Pages-blue)](https://servetcan.github.io/flappyBird/)
+
 📜 Oyun Hakkında
 
 Bu proje, klasik Flappy Bird oyununun basit bir JavaScript uyarlamasıdır. Canvas ve JavaScript kullanılarak geliştirilmiştir.
@@ -17,8 +21,11 @@ Amaç: Kuşu borulara çarptırmadan uçurmak ve mümkün olduğunca çok boru g
 📂 Dosya Yapısı
 
 flappy-game/
+
 ├── index.html      # Ana HTML dosyası
+
 ├── script.js       # Oyun mantığı ve işlevleri
+
 └── styles.css      # Oyunun stil dosyası
 
 ✨ Özellikler
@@ -37,15 +44,15 @@ Oyun sonu ekranı
 
 Başlangıç Ekranı: "Başlamak için herhangi bir yere basınız" mesajı
 
-![Oyun Görüntüsü](screenshot.png)
+![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/screenshot1.png)
 
 Oyun Ekranı: Kuş borular arasında uçuyor
 
-![Oyun Görüntüsü](screenshot.png)
+![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/screenshot2.png)
 
 Oyun Sonu: "Başaramadık Abi :(" ve skor gösterimi
 
-![Oyun Görüntüsü](screenshot.png)
+![Oyun Görüntüsü](https://github.com/servetcan/flappyBird/screenshot3.png)
 
 🏗️ Kod Yapısı ve Mimari Açıklaması
 
@@ -56,14 +63,17 @@ Oyun Sonu: "Başaramadık Abi :(" ve skor gösterimi
 Oyun üç ana dosyadan oluşur:
 
 1. `index.html` - Oyunun HTML iskeleti
-2. `styles.css` - Görsel stiller
-3. `script.js` - Oyun mantığı
+   
+3. `styles.css` - Görsel stiller
+   
+5. `script.js` - Oyun mantığı
 
 ## 📜 script.js Detaylı Açıklama
 
 ### 1. Oyun Değişkenleri ve Ayarlar
 
 ```javascript
+
 var myCanvas = document.getElementById('myCanvas');
 var ctx = myCanvas.getContext("2d");
 var FPS = 40; // Saniyedeki kare sayısı
